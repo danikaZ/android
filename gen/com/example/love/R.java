@@ -1081,7 +1081,7 @@ containing a value of this type.
         public static final int smith=0x7f020058;
     }
     public static final class id {
-        public static final int action_album=0x7f06003e;
+        public static final int action_album=0x7f060040;
         public static final int action_bar=0x7f06001c;
         public static final int action_bar_activity_content=0x7f060015;
         public static final int action_bar_container=0x7f06001b;
@@ -1093,17 +1093,19 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f060016;
         public static final int action_menu_presenter=0x7f060017;
         public static final int action_mode_close_button=0x7f060024;
-        public static final int action_settings=0x7f06003d;
+        public static final int action_settings=0x7f06003f;
         public static final int activity_chooser_view_content=0x7f060025;
         public static final int always=0x7f06000b;
         public static final int beginning=0x7f060011;
         public static final int checkbox=0x7f06002d;
         public static final int collapseActionView=0x7f06000d;
+        public static final int days_left=0x7f06003d;
         public static final int default_activity_button=0x7f060028;
         public static final int dialog=0x7f06000e;
         public static final int disableHome=0x7f060008;
+        public static final int dpPicker=0x7f06003c;
         public static final int dropdown=0x7f06000f;
-        public static final int edit_message=0x7f06003c;
+        public static final int edit_message=0x7f06003e;
         public static final int edit_query=0x7f060030;
         public static final int end=0x7f060013;
         public static final int expand_activities_button=0x7f060026;
@@ -1195,9 +1197,10 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030015;
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
-        public static final int activity_display_message=0x7f030018;
-        public static final int activity_main=0x7f030019;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001a;
+        public static final int activity_display_date=0x7f030018;
+        public static final int activity_display_message=0x7f030019;
+        public static final int activity_main=0x7f03001a;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
     }
     public static final class menu {
         public static final int display_message=0x7f0d0000;
@@ -1247,14 +1250,18 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0b000b;
-        public static final int action_album=0x7f0b0014;
-        public static final int action_settings=0x7f0b0011;
+        public static final int action_album=0x7f0b0016;
+        public static final int action_settings=0x7f0b0012;
         public static final int app_name=0x7f0b000d;
+        public static final int button_date=0x7f0b0010;
+        public static final int button_date_sure=0x7f0b0018;
         public static final int button_send=0x7f0b000f;
+        public static final int days_left=0x7f0b0017;
         public static final int edit_message=0x7f0b000e;
-        public static final int hello_world=0x7f0b0010;
-        public static final int title_activity_display_message=0x7f0b0013;
-        public static final int title_activity_main=0x7f0b0012;
+        public static final int hello_world=0x7f0b0011;
+        public static final int title_activity_display_date=0x7f0b0015;
+        public static final int title_activity_display_message=0x7f0b0014;
+        public static final int title_activity_main=0x7f0b0013;
     }
     public static final class style {
         /** 

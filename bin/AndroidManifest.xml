@@ -34,6 +34,15 @@
                 android:value="com.example.love.MainActivity" />
         </activity>
         
+        <activity
+            android:name=".DatePickerActivity"
+            android:label="@string/title_activity_display_date"
+            android:parentActivityName="com.example.love" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.love.MainActivity" />
+        </activity>
+        
         <receiver android:name=".RemoteControlReceiver">
 		    <intent-filter>
 		        <action android:name="android.intent.action.MEDIA_BUTTON" />

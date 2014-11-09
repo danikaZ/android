@@ -60,8 +60,6 @@ public class MainActivity extends ActionBarActivity {
 	
 	public void openAlbum() {
 		// TODO Auto-generated method stub
-		
-		
 	
 	}
 
@@ -73,6 +71,14 @@ public class MainActivity extends ActionBarActivity {
 		EditText editText = (EditText) findViewById(R.id.edit_message);
 		String message = editText.getText().toString();
 		intent.putExtra(EXTRA_MESSAGE, message);
+		startActivity(intent);
+	}
+	
+	/** Called when the user clicks the date button */
+	//View -> View that was clicked
+	public void showDate(View view) {
+	    // Do something in response to button
+		Intent intent = new Intent(this, DatePickerActivity.class);
 		startActivity(intent);
 	}
 	
